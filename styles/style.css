@@ -1,0 +1,18 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-size: border-box;
+}
+
+body {
+  font-family: monospace;
+}
+
+h1 span {
+  white-space: pre-line;
+  font-size: 4rem;
+}
+
+p {
+  white-space: pre-line;
+}
