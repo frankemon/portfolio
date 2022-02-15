@@ -5,21 +5,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/918213f8bc.js" crossorigin="anonymous"></script>
     <title>Francois Hugo - Fullstack under development</title>
 </head>
 
-<!-- have initial load screen look like npm install (run a script on blank screen with load bar) -->
+<body class="container mx-auto px-32">
+    <header class="flex justify-between py-8">
+        <p>Logo image</p>
+        <div class="flex w-48 justify-between text-white">
+            <i class="fa-brands fa-github-square text-4xl"></i>
+            <i class="fa-brands fa-linkedin text-4xl"></i>
+            <i class="fa-solid fa-envelope text-4xl"></i>
+        </div>
+    </header>
+    <main class="text-xl">
+        <section class="h-screen flex flex-col justify-evenly align-center">
+            <div class="space-y-5">
+                <h1 class="text-4xl">Hi, my name is <span class="text-6xl"><br />
+                        Francois Hugo
+                    </span><br />
+                    and I transform 1's and 0's into websites
+                </h1>
+                <p class="text-3xl mt-5">
+                    Some catchy catch phrase
+                </p>
+            </div>
+            <div class="text-center">
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+        </section>
+        <section class="h-screen flex flex-col justify-evenly align-center">
+            <div class="space-y-5">
+                <h2 class="text-3xl">Who am I?</h2>
+                <p>With a two year education specializing in Javscript for both front and backend, I see myself as in a
+                    permenant phase of "CI/CD". Eager to learn new things and take up challenges outside of my comfort
+                    zone,
+                    I try to aim higher than my current abilites in order to gain more knowledge and learn something new
+                    every day.
+                </p>
+                <p>Combining my prior education in health and fitness together with work experience in the hospitality
+                    and
+                    event
+                    management sector, I believe I offer a unique perspective to projects big or small.</p>
 
-<body>
-    <main>
-        <section>
-            <h1>Hi, my name is <span>
-                    Francois Hugo
-                </span>
-                and I transform 1's and 0's into websites
-            </h1>
-            <p>
+                <p>
+                    Outside of divs and script files, I go by "Frankie" and spend my time surfing around the globe,
+                    weight
+                    training, taking
+                    pictures and baking the occasional sourdough loaf.
+                </p>
+            </div>
+            <div class="text-center pt-32">
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+        </section>
+        <section class="h-screen">
+            <div>
+                <h2 class="text-3xl space-y-5">What have I done?</h2>
+            </div>
+        </section>
+        <!-- <p>
                 class Francois extends softwareDeveloper { <br />
                 constructor({ about, education, experience, hobbies}); <br />
                 this.about = "I'm currently finishing up a 2 year fullstack developer program, after which I'll be
@@ -27,17 +73,9 @@
                 this.education = "AA Athletic Training, SBCC, Fullstack Development, Chas Academy"; <br />
                 this.experience = "Starring AB, Foggy Media AB"; <br />
                 this.hobbies = "Surfing, working out, sourdough bread and photography"; <br />
-                } <br />
-            </p>
-        </section>
-        <section>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium tempora quasi maxime, perspiciatis
-                illo
-                nemo mollitia inventore, sunt architecto ducimus fugit sint facere quibusdam ipsam eligendi nesciunt
-                quam
-                illum necessitatibus.
-            </p>
+            } <br />
+        </p> -->
+
         </section>
     </main>
 
